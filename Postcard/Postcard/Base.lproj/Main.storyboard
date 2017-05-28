@@ -86,14 +86,22 @@
                                 <rect key="frame" x="232" y="175" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4x-cM-HjJ">
+                                <rect key="frame" x="15" y="150" width="193" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="MailButton" destination="W7q-bd-lOj" id="bKb-pb-MlF"/>
                         <outlet property="enterMessageTextField" destination="D6o-6n-vj5" id="q1R-9O-hBQ"/>
                         <outlet property="enterNameTextField" destination="OoR-9r-e2r" id="qsj-VO-pdg"/>
                         <outlet property="messageLabel" destination="hKk-h2-hjz" id="iAp-ME-7Pz"/>
-                        <outlet property="sendMailButton" destination="W7q-bd-lOj" id="kQ4-3d-DIk"/>
+                        <outlet property="nameLabel" destination="y4x-cM-HjJ" id="v2W-HD-6u0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
