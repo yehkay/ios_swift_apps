@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4900E7A21EDB9D7B00C58262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900E7A11EDB9D7B00C58262 /* AppDelegate.swift */; };
+		4900E7A41EDB9D7C00C58262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900E7A31EDB9D7C00C58262 /* ViewController.swift */; };
+		4900E7A71EDB9D7C00C58262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7A51EDB9D7C00C58262 /* Main.storyboard */; };
+		4900E7A91EDB9D7C00C58262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7A81EDB9D7C00C58262 /* Assets.xcassets */; };
+		4900E7AC1EDB9D7C00C58262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7AA1EDB9D7C00C58262 /* LaunchScreen.storyboard */; };
+		4900E7B41EDBA09D00C58262 /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900E7B31EDBA09D00C58262 /* Tiger.swift */; };
+		4900E7BE1EDBAB7E00C58262 /* BengalTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7B61EDBAB7E00C58262 /* BengalTiger.jpg */; };
+		4900E7BF1EDBAB7E00C58262 /* IndochineseTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7B71EDBAB7E00C58262 /* IndochineseTiger.jpg */; };
+		4900E7C01EDBAB7E00C58262 /* Lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7B81EDBAB7E00C58262 /* Lion.jpg */; };
+		4900E7C11EDBAB7E00C58262 /* LionCub1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7B91EDBAB7E00C58262 /* LionCub1.jpg */; };
+		4900E7C21EDBAB7E00C58262 /* LionCub2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7BA1EDBAB7E00C58262 /* LionCub2.jpeg */; };
+		4900E7C31EDBAB7E00C58262 /* Lioness.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7BB1EDBAB7E00C58262 /* Lioness.jpeg */; };
+		4900E7C41EDBAB7E00C58262 /* MalayanTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7BC1EDBAB7E00C58262 /* MalayanTiger.jpg */; };
+		4900E7C51EDBAB7E00C58262 /* SiberianTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4900E7BD1EDBAB7E00C58262 /* SiberianTiger.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4900E79E1EDB9D7B00C58262 /* LionsAndTiger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionsAndTiger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4900E7A11EDB9D7B00C58262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4900E7A31EDB9D7C00C58262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4900E7A61EDB9D7C00C58262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4900E7A81EDB9D7C00C58262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4900E7AB1EDB9D7C00C58262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4900E7AD1EDB9D7C00C58262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4900E7B31EDBA09D00C58262 /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
+		4900E7B61EDBAB7E00C58262 /* BengalTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BengalTiger.jpg; sourceTree = "<group>"; };
+		4900E7B71EDBAB7E00C58262 /* IndochineseTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IndochineseTiger.jpg; sourceTree = "<group>"; };
+		4900E7B81EDBAB7E00C58262 /* Lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lion.jpg; sourceTree = "<group>"; };
+		4900E7B91EDBAB7E00C58262 /* LionCub1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LionCub1.jpg; sourceTree = "<group>"; };
+		4900E7BA1EDBAB7E00C58262 /* LionCub2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LionCub2.jpeg; sourceTree = "<group>"; };
+		4900E7BB1EDBAB7E00C58262 /* Lioness.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lioness.jpeg; sourceTree = "<group>"; };
+		4900E7BC1EDBAB7E00C58262 /* MalayanTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MalayanTiger.jpg; sourceTree = "<group>"; };
+		4900E7BD1EDBAB7E00C58262 /* SiberianTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SiberianTiger.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4900E79B1EDB9D7B00C58262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4900E7951EDB9D7B00C58262 = {
+			isa = PBXGroup;
+			children = (
+				4900E7A01EDB9D7B00C58262 /* LionsAndTiger */,
+				4900E79F1EDB9D7B00C58262 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4900E79F1EDB9D7B00C58262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4900E79E1EDB9D7B00C58262 /* LionsAndTiger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4900E7A01EDB9D7B00C58262 /* LionsAndTiger */ = {
+			isa = PBXGroup;
+			children = (
+				4900E7A11EDB9D7B00C58262 /* AppDelegate.swift */,
+				4900E7A31EDB9D7C00C58262 /* ViewController.swift */,
+				4900E7B31EDBA09D00C58262 /* Tiger.swift */,
+				4900E7A51EDB9D7C00C58262 /* Main.storyboard */,
+				4900E7A81EDB9D7C00C58262 /* Assets.xcassets */,
+				4900E7AA1EDB9D7C00C58262 /* LaunchScreen.storyboard */,
+				4900E7B51EDBAB7E00C58262 /* LionsAndTigersAssets */,
+				4900E7AD1EDB9D7C00C58262 /* Info.plist */,
+			);
+			path = LionsAndTiger;
+			sourceTree = "<group>";
+		};
+		4900E7B51EDBAB7E00C58262 /* LionsAndTigersAssets */ = {
+			isa = PBXGroup;
+			children = (
+				4900E7B61EDBAB7E00C58262 /* BengalTiger.jpg */,
+				4900E7B71EDBAB7E00C58262 /* IndochineseTiger.jpg */,
+				4900E7B81EDBAB7E00C58262 /* Lion.jpg */,
+				4900E7B91EDBAB7E00C58262 /* LionCub1.jpg */,
+				4900E7BA1EDBAB7E00C58262 /* LionCub2.jpeg */,
+				4900E7BB1EDBAB7E00C58262 /* Lioness.jpeg */,
+				4900E7BC1EDBAB7E00C58262 /* MalayanTiger.jpg */,
+				4900E7BD1EDBAB7E00C58262 /* SiberianTiger.jpg */,
+			);
+			path = LionsAndTigersAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4900E79D1EDB9D7B00C58262 /* LionsAndTiger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4900E7B01EDB9D7C00C58262 /* Build configuration list for PBXNativeTarget "LionsAndTiger" */;
+			buildPhases = (
+				4900E79A1EDB9D7B00C58262 /* Sources */,
+				4900E79B1EDB9D7B00C58262 /* Frameworks */,
+				4900E79C1EDB9D7B00C58262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionsAndTiger;
+			productName = LionsAndTiger;
+			productReference = 4900E79E1EDB9D7B00C58262 /* LionsAndTiger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4900E7961EDB9D7B00C58262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yehkay;
+				TargetAttributes = {
+					4900E79D1EDB9D7B00C58262 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4900E7991EDB9D7B00C58262 /* Build configuration list for PBXProject "LionsAndTiger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4900E7951EDB9D7B00C58262;
+			productRefGroup = 4900E79F1EDB9D7B00C58262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4900E79D1EDB9D7B00C58262 /* LionsAndTiger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4900E79C1EDB9D7B00C58262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4900E7BF1EDBAB7E00C58262 /* IndochineseTiger.jpg in Resources */,
+				4900E7AC1EDB9D7C00C58262 /* LaunchScreen.storyboard in Resources */,
+				4900E7A91EDB9D7C00C58262 /* Assets.xcassets in Resources */,
+				4900E7C31EDBAB7E00C58262 /* Lioness.jpeg in Resources */,
+				4900E7C11EDBAB7E00C58262 /* LionCub1.jpg in Resources */,
+				4900E7C41EDBAB7E00C58262 /* MalayanTiger.jpg in Resources */,
+				4900E7C51EDBAB7E00C58262 /* SiberianTiger.jpg in Resources */,
+				4900E7BE1EDBAB7E00C58262 /* BengalTiger.jpg in Resources */,
+				4900E7A71EDB9D7C00C58262 /* Main.storyboard in Resources */,
+				4900E7C01EDBAB7E00C58262 /* Lion.jpg in Resources */,
+				4900E7C21EDBAB7E00C58262 /* LionCub2.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4900E79A1EDB9D7B00C58262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4900E7A41EDB9D7C00C58262 /* ViewController.swift in Sources */,
+				4900E7B41EDBA09D00C58262 /* Tiger.swift in Sources */,
+				4900E7A21EDB9D7B00C58262 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4900E7A51EDB9D7C00C58262 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4900E7A61EDB9D7C00C58262 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4900E7AA1EDB9D7C00C58262 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4900E7AB1EDB9D7C00C58262 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4900E7AE1EDB9D7C00C58262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4900E7AF1EDB9D7C00C58262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4900E7B11EDB9D7C00C58262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LionsAndTiger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awe.LionsAndTiger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4900E7B21EDB9D7C00C58262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LionsAndTiger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awe.LionsAndTiger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4900E7991EDB9D7B00C58262 /* Build configuration list for PBXProject "LionsAndTiger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4900E7AE1EDB9D7C00C58262 /* Debug */,
+				4900E7AF1EDB9D7C00C58262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4900E7B01EDB9D7C00C58262 /* Build configuration list for PBXNativeTarget "LionsAndTiger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4900E7B11EDB9D7C00C58262 /* Debug */,
+				4900E7B21EDB9D7C00C58262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4900E7961EDB9D7B00C58262 /* Project object */;
+}
