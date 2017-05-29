@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var ageLabel: UILabel!
     
     var tigersArray:[Tiger] = []
+    var currentRandomInt: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,8 +42,18 @@ class ViewController: UIViewController {
         setTiger()
     }
     
-    func setTiger(){
+    func generateIndex() -> Int{
         let index = Int(arc4random_uniform( UInt32( tigersArray.count ) ))
+        if index == currentRandomInt{
+            return generateIndex()
+        } else {
+            currentRandomInt = index
+            return index
+        }
+    }
+    
+    func setTiger(){
+        let index = generateIndex()
         let randomTiger = tigersArray[index]
         
         UIView.transition(
